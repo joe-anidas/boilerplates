@@ -1,0 +1,100 @@
+@import "tailwindcss";
+
+:root {
+  --primary-color: #0070f3;
+  --error-color: #dc3545;
+}
+
+.auth-page {
+  max-width: 400px;
+  margin: 2rem auto;
+  padding: 2rem;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.dashboard {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 2rem;
+}
+
+.auth-container input {
+  display: block;
+  width: 100%;
+  padding: 0.8rem;
+  margin: 0.5rem 0;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+button {
+  background: var(--primary-color);
+  color: white;
+  border: none;
+  padding: 0.8rem 1.5rem;
+  border-radius: 4px;
+  cursor: pointer;
+  margin: 0.5rem 0;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+.google-btn {
+  background: #db4437;
+}
+
+.error {
+  color: var(--error-color);
+  margin: 0.5rem 0;
+}
+
+.avatar {
+  border-radius: 50%;
+  margin: 1rem 0;
+}
+
+.user-info {
+  margin: 2rem 0;
+  padding: 1rem;
+  background: #f5f5f5;
+  border-radius: 8px;
+}
+
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.auth-options {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.auth-link {
+  padding: 1rem 2rem;
+  background: #0070f3;
+  color: white;
+  border-radius: 4px;
+  text-decoration: none;
+  transition: opacity 0.2s;
+}
+
+.auth-link:hover {
+  opacity: 0.9;
+}
+
+.auth-container {
+  max-width: 400px;
+  margin: 2rem auto;
+  padding: 2rem;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
